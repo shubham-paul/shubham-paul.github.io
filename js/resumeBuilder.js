@@ -141,8 +141,8 @@ var projects = {
             "dates": "January, 2013 to June, 2013",
             "description": "A Java swings applet based on restoring black and white images to Colour through a Local Colour Transfer Algorithm.",
             "images": [
-                "images/project2.png",
-                "images/project3.png"
+                "images/Project2.png",
+                "images/Project3.png"
             ]
         }
     ]
