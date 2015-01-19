@@ -63,16 +63,18 @@ var education = {
 	{
 		"name": "Jaypee Institute of Information Technology",
 		"location": "Noida, Uttar Pradesh, India",
-		"majors": "CS",
+		"majors": "Programming, Web Architecture, Data Structure and Data Mining",
 		"minors":"Not Applicable",
-		"year": "2013"
+		"dates": "2009 - 2013",
+		"degree":"Bachelors of Technology - Information Technology"
 	},
 	{
 		"name": "Don Bosco School",
 		"location": "New Delhi, Delhi, India",
-		"majors":"Science",
+		"majors":"Science: Physics, Chemistry, Maths, Economics",
 		"minors": "Economics",
-		"year": "2009"
+		"dates": "1997 - 2009",
+		"degree": "High-School"
 	}
 	
 	],
@@ -195,10 +197,31 @@ for (job in work.jobs) {
 
 displayWork();
 
-/*$(document).click(function(loc){
-	logClicks(x,y);
+(function displayEducation(){
 
-});*/
+	for(school in education.schools)
+	{
+		$("#education").append(HTMLschoolStart);
+		var formattedSchool = HTMLschoolName.replace("%data%",education.schools[school].name);
+		var formattedDegree = HTMLschoolDegree.replace("%data%",education.schools[school].degree)
+		var formatteSchoolDegree = formattedSchool + formattedDegree;
+		$(".education-entry:last").append(formatteSchoolDegree);
+
+		var formattedDates = HTMLschoolDates.replace("%data%",education.schools[school].dates);
+		$(".education-entry:last").append(formattedDates);
+
+		var formattedLocation = HTMLschoolLocation.replace("%data%",education.schools[school].location);
+		$(".education-entry:last").append(formattedLocation);
+
+		var formattedMajor = HTMLschoolMajor.replace("%data%",education.schools[school].majors);
+		$(".education-entry:last").append(formattedMajor);
+
+	};
+
+})();
+
+
+
 
 function locationizer(work_obj)
 {
