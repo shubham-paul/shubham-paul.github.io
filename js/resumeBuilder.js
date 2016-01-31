@@ -19,7 +19,7 @@ var bio = {
 		"location": "New Delhi, Delhi, India"
 	},
 	"welcomeMessage":"Welcome Everyone",
-	"skills": ["Java", "J2EE", "JavaScript", "Spring", "Hibernate", "SQL", "Google App Engine"],
+	"skills": ["Java", "J2EE", "JavaScript", "Spring", "Hibernate", "SQL", "Google App Engine", "Release Management"],
 	"biopic": "images/IMAG2743_1_1.jpg"
 };
 
@@ -105,7 +105,7 @@ var work = {
     "jobs": [
         {
             "employer": "EY (IT Advisory Services)",
-            "title": "Software Engineer (Full Stack Web Developer)",
+            "title": "Software Engineer (Full Stack Java Developer)",
             "location": "Gurgaon, Haryana, India",
             "dates": "October, 2013 to present",
             "description": "Worked on a product Resource Management Tool which is based on Technologies: Java Spring-MVC, Hibernate and JQGrid Frameworks. A report generation tool - Jaspersoft iReports is also used."
