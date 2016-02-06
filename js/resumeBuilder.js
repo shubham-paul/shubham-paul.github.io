@@ -19,8 +19,8 @@ var bio = {
 		"location": "New Delhi, Delhi, India"
 	},
 	"welcomeMessage":"Welcome Everyone",
-	"skills": ["Java", "J2EE", "JavaScript", "Spring", "Hibernate", "SQL", "Google App Engine", "Release Management"],
-	"biopic": "images/IMAG2743_1_1.jpg"
+	"skills": ["Java", "J2EE", "JavaScript", "Spring", "Hibernate", "SQL", "Release Management"],
+	"biopic": "images/Profpic.jpg"
 };
 
 var formattedName = HTMLheaderName.replace("%data%",bio.name);
@@ -97,40 +97,66 @@ var education = {
 		"school":"Udacity",
 		"date":"2014",
 		"url":"https://www.udacity.com/course/ud775"
+	},
+	{
+		"title":"How to use Git and Github",
+		"school":"Udacity",
+		"date":"2014",
+		"url":"https://www.udacity.com/course/ud775"
 	}
+
 	]
 };
 
 var work = {
     "jobs": [
         {
-            "employer": "EY (IT Advisory Services)",
-            "title": "Software Engineer (Full Stack Java Developer)",
+            "employer": "EY",
+            "title": "Software Engineer -  (Full Stack Java Developer)",
             "location": "Gurgaon, Haryana, India",
-            "dates": "October, 2013 to present",
-            "description": "Worked on a product Resource Management Tool which is based on Technologies: Java Spring-MVC, Hibernate and JQGrid Frameworks. A report generation tool - Jaspersoft iReports is also used."
+            "dates": "October, 2014 to present",
+            "description": "- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Participate in software design meetings to write technical design documents and to propose design solutions.<br>- Recommend optimum coding methodologies based on latest coding developments and project needs.<br>- Perform unit testing of application codes.<br>- Resolve system defects and perform bug fixes during testing phase.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>- Coordinate with various teams to develop and support Java applications.<br>- Guide Junior Software Engineers in designing and implementing application codes."
         },
         {
-            "employer": "Celerity Infosolutions Pvt Ltd",
+            "employer": "EY",
+            "title": "Programmer Analyst - 2",
+            "location": "Gurgaon, Haryana, India",
+            "dates": "October, 2013 to September,2014",
+            "description": "- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Perform unit testing of application codes.<br>- Resolve system defects and perform bug fixes during testing phase.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>"
+        },
+        {
+            "employer": "Celerity Infosolutions Pvt. Ltd.",
             "title": "Software Development Intern",
             "location": "Noida, Uttar Pradesh, India",
-            "dates": "May, 2012 to July,2012",
-            "description": "Worked on the Front end of a Web Application called Celerity Service Desk at a Summer Internship project @ Celerity Infosolutions."
+            "dates": "May, 2012 to July, 2012",
+            "description": "- Assist with the Analysis, Design, Development, Testing and Documentation of new software solutions.<br>"
         },
         {
             "employer": "HCL Infosystems",
             "title": "Software Development Intern",
             "location": "Noida, Uttar Pradesh, India",
             "dates": "May, 2011 to July, 2011",
-            "description": "Live project @ HCL Infosystems based on a General CGPA Calculator developed in C++."
+            "description": "- Assist with the Analysis, Design, Development, Testing and Documentation of new software solutions.<br>"
         }
     ]
 };
 
 var projects = {
     "projects": [
+    	{
+    		"title": "EY - Case Management Tool",
+            "dates": "July, 2015 to Present",
+            "description": "Case Management Tool is a tool to investigate FOREX as well as DEPOSIT transactions made all over the world for Money Laundering. Using our AML (Anti Money Laundering) case management tool we can produce targeted metrics which increases the efficiency of the process and streamlines the workflow management."
+
+    	},
+    	{
+
+    		"title": "EY - LINC",
+            "dates": "December, 2014 to June, 2015",
+            "description": "Automate the  benefits amount calculation process to check for compliance against regulatory compliance an identify potential “red flags” and non-compliance issues. To interpret the client’s data using pre defined business rules and highlight instances where the organization maybe non compliant or issues that need to be addressed. "
+    	},
         {
-            "title": "AUGMENTED VIDEO TUTORIAL",
+            "title": "JIIT (Academic) - Augement Video Tutorial",
             "dates": "August, 2012 to December, 2012",
             "description": "An android application which provided video tutorials using the concepts of image processing and 3D model augmentations.",
             "images": [
@@ -139,7 +165,7 @@ var projects = {
             ]
         },
         {
-            "title": "IMAGE RESTORATION",
+            "title": "JIIT (Academic) - Image Restoration",
             "dates": "January, 2013 to June, 2013",
             "description": "A Java swings applet based on restoring black and white images to Colour through a Local Colour Transfer Algorithm.",
             "images": [
@@ -189,8 +215,6 @@ for (job in work.jobs) {
 	
 	var formattedDescription = HTMLworkDescription.replace("%data%",work.jobs[job].description)
 	$(".work-entry:last").append(formattedDescription);
-
-
 
 };
 }
@@ -277,6 +301,6 @@ projects.display = function(){
 
 projects.display();
 
-$("#mapDiv").append(googleMap);
+//$("#mapDiv").append(googleMap);
 
 
