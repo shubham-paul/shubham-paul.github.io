@@ -146,15 +146,19 @@ var projects = {
     	{
     		"title": "EY - Case Management Tool",
             "dates": "July, 2015 to Present",
-            "description": "Case Management Tool is a tool to investigate FOREX as well as DEPOSIT transactions made all over the world for Money Laundering. Using our AML (Anti Money Laundering) case management tool we can produce targeted metrics which increases the efficiency of the process and streamlines the workflow management."
-
+            "description": "Case Management Tool is a tool to investigate FOREX as well as DEPOSIT transactions made all over the world for Money Laundering. Using our AML (Anti Money Laundering) case management tool we can produce targeted metrics which increases the efficiency of the process and streamlines the workflow management.",
+            "images": ""
     	},
+    	
+
     	{
 
     		"title": "EY - LINC",
             "dates": "December, 2014 to June, 2015",
-            "description": "Automate the  benefits amount calculation process to check for compliance against regulatory compliance an identify potential “red flags” and non-compliance issues. To interpret the client’s data using pre defined business rules and highlight instances where the organization maybe non compliant or issues that need to be addressed. "
+            "description": "Automate the  benefits amount calculation process to check for compliance against regulatory compliance an identify potential red flags and non-compliance issues. To interpret the client’s data using pre defined business rules and highlight instances where the organization maybe non compliant or issues that need to be addressed. ",
+            "images": ""
     	},
+
         {
             "title": "JIIT (Academic) - Augement Video Tutorial",
             "dates": "August, 2012 to December, 2012",
