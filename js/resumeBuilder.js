@@ -10,7 +10,7 @@ $("#main").append(skills.length);
 var bio = {
 
 	"name":"Shubham Paul",
-	"role":"Software Engineer",
+	"role":"Software Developer",
 	"contacts":{
 		"mobile": "+91-8800312461",
 		"email" : "shubhampaul@gmail.com",
