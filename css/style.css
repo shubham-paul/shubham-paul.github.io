@@ -223,3 +223,10 @@ span {
     display: block;
   }
 }
+
+.summary-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F5A623;
+  line-height: 28px;
+}
