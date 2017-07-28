@@ -19,7 +19,7 @@ var bio = {
 		"location": "New Delhi, Delhi, India"
 	},
 	"welcomeMessage":"Welcome Everyone",
-	"skills": ["Java", "J2EE", "JavaScript", "Spring", "Hibernate", "SQL", "Release Management"],
+	"skills": ["Java", "J2EE", "SQL and PL-SQL", "Spring (Boot, MVC, JPA, Rest & Security)", "Hibernate", "Angular-2 & jQuery", "Tomcat & Weblogic", "Performance Tuning", "Enterprise Development", "Agile"],
 	"biopic": "images/Profpic.jpg"
 };
 
