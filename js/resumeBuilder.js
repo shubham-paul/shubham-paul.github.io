@@ -42,6 +42,7 @@ $("#topContacts").append(formattedLocation);
 $("#header").append(formattedImage);
 $("#header").append(formattedMessage);
 
+
 /*var work = {};
 work.position = "Software Engineer";
 work.employer = "EY (IT Advisory Services)"
