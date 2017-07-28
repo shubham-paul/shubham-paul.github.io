@@ -115,14 +115,14 @@ var work = {
             "title": "Software Developer Engineer - 2",
             "location": "Gurgaon, Haryana, India",
             "dates": "November, 2016 to present",
-            "description": "- Developed and Enhanced a Data Feed Management Solution, XpressFeed, based on user requirements documentation and detailed design documentation.<br>- Also, Worked on delivering proprietary Data Packages through Xpressfeed to a number of clients subscribed to it.<br>- Participate in software design meetings to write technical design documents and to propose design solutions.<br>- Developed solutions to automate various parts of the development process.<br>- Resolve defects and provide bug fixes to the application on Production.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>- Coordinate with various teams to develop and support XpressFeed.<br>- "
+            "description": "- Developed and Enhanced a Data Feed Management Solution, XpressFeed, based on user requirements documentation and detailed design documentation.<br>- Also, Worked on delivering proprietary Data Packages through Xpressfeed to a number of clients subscribed to it.<br>- Participated in software design meetings to write technical design documents and to propose design solutions.<br>- Developed solutions to automate various parts of the development process.<br>- Resolved defects and provide bug fixes to the application on Production.<br>- Developed innovative methodologies to improve project quality, scalability and profitability.<br>- Coordinated with various teams to develop and support XpressFeed.<br>"
         },
         {
             "employer": "EY",
             "title": "Senior Software Engineer",
             "location": "Gurgaon, Haryana, India",
             "dates": "October, 2013 to October,2016",
-            "description": "- Designed and developed a Financial service solution software, Office of Continuity (OC), that helps firms develop strategic goals around regulatory-driven imperatives. <br>- Also, enhanced a popularly used AML Tool, EY CMT (Case Management Tool) which is used to investigate FOREX as well as DEPOSIT transactions made all over the world.  <br>- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Perform unit testing of application codes.<br>-Guide Junior Software Engineers in designing and implementing application codes.<br>"
+            "description": "- Designed and developed a Financial service solution software, Office of Continuity (OC), that helps firms develop strategic goals around regulatory-driven imperatives. <br>- Also, enhanced a popularly used AML Tool, EY CMT (Case Management Tool) which is used to investigate FOREX as well as DEPOSIT transactions made all over the world.  <br>- Developed other Java/J2EE web based applications using detailed design documentation.<br>- Also, Designed and developed SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Performed unit testing of application codes.<br>- Guided Junior Software developers in designing and implementing application codes.<br>"
         }
     ]
 };
