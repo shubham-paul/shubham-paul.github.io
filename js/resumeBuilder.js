@@ -111,32 +111,18 @@ var education = {
 var work = {
     "jobs": [
         {
-            "employer": "EY",
-            "title": "Software Engineer -  (Full Stack Java Developer)",
+            "employer": "S&P Global, Inc.",
+            "title": "Software Developer Engineer - 2",
             "location": "Gurgaon, Haryana, India",
-            "dates": "October, 2014 to present",
-            "description": "- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Participate in software design meetings to write technical design documents and to propose design solutions.<br>- Recommend optimum coding methodologies based on latest coding developments and project needs.<br>- Perform unit testing of application codes.<br>- Resolve system defects and perform bug fixes during testing phase.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>- Coordinate with various teams to develop and support Java applications.<br>- Guide Junior Software Engineers in designing and implementing application codes."
+            "dates": "November, 2016 to present",
+            "description": "- Developed and Enhanced a Data Feed Management Solution, XpressFeed, based on user requirements documentation and detailed design documentation.<br>- Also, Worked on delivering proprietary Data Packages through Xpressfeed to a number of clients subscribed to it.<br>- Participate in software design meetings to write technical design documents and to propose design solutions.<br>- Developed solutions to automate various parts of the development process.<br>- Resolve defects and provide bug fixes to the application on Production.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>- Coordinate with various teams to develop and support XpressFeed.<br>- "
         },
         {
             "employer": "EY",
-            "title": "Programmer Analyst - 2",
+            "title": "Senior Software Engineer",
             "location": "Gurgaon, Haryana, India",
-            "dates": "October, 2013 to September,2014",
-            "description": "- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Perform unit testing of application codes.<br>- Resolve system defects and perform bug fixes during testing phase.<br>- Develop innovative methodologies to improve project quality, scalability and profitability.<br>"
-        },
-        {
-            "employer": "Celerity Infosolutions Pvt. Ltd.",
-            "title": "Software Development Intern",
-            "location": "Noida, Uttar Pradesh, India",
-            "dates": "May, 2012 to July, 2012",
-            "description": "- Assist with the Analysis, Design, Development, Testing and Documentation of new software solutions.<br>"
-        },
-        {
-            "employer": "HCL Infosystems",
-            "title": "Software Development Intern",
-            "location": "Noida, Uttar Pradesh, India",
-            "dates": "May, 2011 to July, 2011",
-            "description": "- Assist with the Analysis, Design, Development, Testing and Documentation of new software solutions.<br>"
+            "dates": "October, 2013 to October,2016",
+            "description": "- Designed and developed a Financial service solution software, Office of Continuity (OC), that helps firms develop strategic goals around regulatory-driven imperatives. <br>- Also, enhanced a popularly used AML Tool, EY CMT (Case Management Tool) which is used to investigate FOREX as well as DEPOSIT transactions made all over the world.  <br>- Develop Java/J2EE code based on user requirements documentation and detailed design documentation.<br>- Also, Design and develop SQL procedures, query performance tunings, develop underlying data models and databases.<br>- Perform unit testing of application codes.<br>-Guide Junior Software Engineers in designing and implementing application codes.<br>"
         }
     ]
 };
